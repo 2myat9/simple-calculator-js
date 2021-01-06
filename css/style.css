@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+.calculator-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #dfe0df;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.display {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #23120b;
+  color: #f1f1f1;
+  border-radius: 5px;
+  margin: 3px 3px 10px 3px;
+  padding: 5px 20px 5px 5px;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 3rem;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.button {
+  background-color: #f1f1f1;
+  color: #23120b;
+  font-family: "Share Tech Mono", monospace;
+  margin: 5px;
+  padding: 5px;
+  font-size: 2.5rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #fdb827;
+}
+
+.button:active {
+  transform: scale(1.1);
+}
+
+.button.operator {
+  display: flex;
+  align-items: center;
+  background-color: #fdb827;
+}
+
+.button.operator:hover {
+  background-color: #21209c;
+}
+
+.button.backspace {
+  display: flex;
+  align-items: center;
+}
+
+.small {
+  width: 25%;
+}
+
+.medium {
+  width: 50%;
+}
+
+.large {
+  width: 75%;
+}
+
+.icon {
+  display: block;
+  max-width: 25px;
+  max-height: 25px;
+  height: auto;
+  width: auto;
+}

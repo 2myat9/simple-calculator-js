@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="calculator-container">
+      <div class="calculator">
+        <div class="display"></div>
+        <div class="controls">
+          <div class="row row-1">
+            <div class="button medium clear" data-symbol="AC">AC</div>
+            <div class="button small backspace" data-symbol="backspace">
+              <img
+                class="icon backspace-icon"
+                src="https://img.icons8.com/ios-glyphs/30/000000/clear-symbol.png"
+                data-symbol="backspace"
+              />
+            </div>
+            <div class="button small operator divide" data-symbol="divide">
+              <img
+                class="icon divide-icon"
+                src="https://img.icons8.com/metro/26/ffffff/divide.png"
+                data-symbol="divide"
+              />
+            </div>
+          </div>
+          <div class="row row-2">
+            <div class="button small number">7</div>
+            <div class="button small number">8</div>
+            <div class="button small number">9</div>
+            <div class="button small operator multiply" data-symbol="multiply">
+              <img
+                class="icon multiply-icon"
+                src="https://img.icons8.com/metro/26/ffffff/multiply.png"
+                data-symbol="multiply"
+              />
+            </div>
+          </div>
+          <div class="row row-3">
+            <div class="button small number">4</div>
+            <div class="button small number">5</div>
+            <div class="button small number">6</div>
+            <div class="button small operator subtract" data-symbol="subtract">
+              <img
+                class="icon subtract-icon"
+                src="https://img.icons8.com/metro/26/ffffff/minus-math.png"
+                data-symbol="subtract"
+              />
+            </div>
+          </div>
+          <div class="row row-4">
+            <div class="button small number">1</div>
+            <div class="button small number">2</div>
+            <div class="button small number">3</div>
+            <div class="button small operator add" data-symbol="add">
+              <img
+                class="icon add-icon"
+                src="https://img.icons8.com/fluent-systems-filled/24/ffffff/plus-math.png"
+                data-symbol="add"
+              />
+            </div>
+          </div>
+          <div class="row row-5">
+            <div class="button large number">0</div>
+            <div class="button small operator equal" data-symbol="equal">
+              <img
+                class="icon"
+                src="https://img.icons8.com/metro/26/ffffff/equal-sign.png"
+                data-symbol="equal"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
